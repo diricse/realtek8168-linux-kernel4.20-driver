@@ -17,10 +17,10 @@ linux kernel4.20已经发布 centos7的内核还是3.10的版本
 
 为了方便广大信徒，我将该下载放到这里，方便大家下载，顺便告诉各位我的内核升级办法
 
-1、创建文件夹 
+# 1、创建文件夹<br>
 mkdir /data
 
-2、下载内核源码
+2、下载内核源码<br>
 cd /data 
 wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.20.12.tar.xz
 
