@@ -82,17 +82,22 @@ rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-3.el7.elrepo.noarch.rpm<br>
 yum --disablerepo="*" --enablerepo="elrepo-kernel" list available<br>
 
 #### 14、，安装最新的主线稳定内核：<br>
+
 yum --enablerepo=elrepo-kernel install kernel-ml kernel-ml-devel kernel-ml-headers kernel-ml-tools<br>
+
 安装后请不要删除其它版本内核<br>
 
 #### 15、更新一下启动菜单<br>
+
 grub2-mkconfig -o /boot/grub2/grub.cfg<br>
 
 #### 16、重启进入rpm安装的内核系统<br>
 reboot<br>
+
 又无法上网了，所以只有在本机登录操作<br>
 
 #### 17、安装r8168网卡驱动<br>
+
 cd r8168-8.046.0<br>
 ./autorun.sh<br>
 
@@ -109,7 +114,8 @@ grub2-mkconfig -o /boot/grub2/grub.cfg<br>
 
 
 本人做码农将近20年了，非常喜欢交朋友<br>
-我的QQ：2456568249  回答:github
+我的QQ：2456568249  回答:github <br>
+my twitter: https://twitter.com/QinBerlin
 
 
 
