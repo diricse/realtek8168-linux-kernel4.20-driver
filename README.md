@@ -92,6 +92,7 @@ yum --enablerepo=elrepo-kernel install kernel-ml kernel-ml-devel kernel-ml-heade
 grub2-mkconfig -o /boot/grub2/grub.cfg<br>
 
 #### 16、重启进入rpm安装的内核系统<br>
+
 reboot<br>
 
 又无法上网了，所以只有在本机登录操作<br>
@@ -102,10 +103,15 @@ cd r8168-8.046.0<br>
 ./autorun.sh<br>
 
 命令成功执行，网络连接又好了<br>
+
 #### 18、列出kernel<br>
+
 rpm -qa | grep kernel<br>
+
 #### 19、删除不要的低版本kernel与自己编译的kernel<br>
+
 rpm -e kernel***    这里*请输入具体的列出的kernel后的内容<br>
+rm  vmlinuz-4.20.12 <br>
 
 #### 20、再次更新下启动菜单<br>
 grub2-mkconfig -o /boot/grub2/grub.cfg<br>
