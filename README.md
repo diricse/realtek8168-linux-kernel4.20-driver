@@ -119,9 +119,6 @@ grub2-mkconfig -o /boot/grub2/grub.cfg<br>
 #### 21、重启进入rpm安装的4.20内核，大功告成！
 
 
-本人做码农将近20年了，非常喜欢交朋友<br>
-我的QQ：2456568249  回答:github <br>
-my twitter: https://twitter.com/QinBerlin
 
 
 
